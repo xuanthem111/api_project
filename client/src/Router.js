@@ -70,7 +70,6 @@ function PrivateRoute({children, user, ...rest}) {
     const adminRouters = [
         '/admin/users/add',
         '/admin/users',
-        '/admin/users/add', 
         '/admin'
     ];
 
@@ -79,7 +78,7 @@ function PrivateRoute({children, user, ...rest}) {
 
     let accessValid = true;
 
-    if (user.role != 'admin') {
+    if (user && user.role != 'admin') {
         accessValid = !isFound
     }
 

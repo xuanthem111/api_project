@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.APP_PORT || 5000;
 const host = process.env.APP_HOST;
 
 
@@ -32,6 +32,11 @@ app.use('/', appRouters);
 
 // Error Middleware
 // app.use(errorHandler.genericErrorHandler);
+
+// run production
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.listen(port, () => {
   console.log(`Server running on port ${host}:${port}`)

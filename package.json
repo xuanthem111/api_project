@@ -30,7 +30,7 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "start:dev": "concurrently \"nodemon --ignore 'client/*' --watch * \" --exec node index.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*' --watch * \" --exec node index.js \"cd client && npm run start \"",
     "start": "node index.js",
     "test": "npm run test",
     "seed": "node seeder/index.js"

@@ -1,0 +1,32 @@
+
+[
+    {
+        "id": 1,
+        "name": "Bánh đa cua",
+        "amountInStock": 3,
+        "price": 30000,
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636"
+    },
+    {
+        "id": 2,
+        "name": "Bánh giò",
+        "amountInStock": 10,
+        "price": 38000,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20190503-delish-pineapple-baked-salmon-horizontal-ehg-450-1557771120.jpg?crop=0.669xw:1.00xh;0.173xw,0&resize=640:*"
+    },
+    {
+        "id": 3,
+        "name": "Bánh lọc",
+        "amountInStock": 8,
+        "price": 25000,
+        "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1126,w_2000,x_0,y_181/f_auto,q_auto,w_1100/v1554932288/shape/mentalfloss/12531-istock-637790866.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bánh bèo",
+        "amountInStock": 11,
+        "price": 20000,
+        "image": "https://images.everydayhealth.com/images/diet-nutrition/what-is-a-plant-based-diet-beginners-guide-food-list-benefits-722x406.jpg"
+    }
+
+]

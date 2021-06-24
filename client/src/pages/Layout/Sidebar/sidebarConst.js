@@ -1,6 +1,0 @@
-module.exports = {
-    USER_LIST: "USER_LIST",
-    ADD_USER: "ADD_USER",
-    RESET_PASSWORD: "RESET_PASSWORD",
-    PROFILE: "PROFILE"
-}

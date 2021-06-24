@@ -16,7 +16,6 @@ module.exports = function (req, res, next) {
             return;
         }
         return res.status(401).json({ message: "Auth Error" });
-
     } catch (e) {
         res.status(500).send({ message: e.message });
     }

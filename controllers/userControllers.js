@@ -7,7 +7,6 @@ module.exports = {
     login: function(req, res, next) {
         const user_name = req.body.user_name;
         const password = req.body.password;
-        
         userServices.login(user_name, password)
         .then(data => {
             const authToken = jwt.sign({data}, privateKey);
@@ -48,6 +47,5 @@ module.exports = {
         userServices.updateUser(userId, req.body)
         .then(() => res.send({message: "success"}))
         .catch(error => next(error))
-
     }
 }
